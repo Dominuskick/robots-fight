@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\robot ai challenge\AlgorithmDlls\OleksandrKalenikov.RobotChallange.dll
+C:\Users\Admin\source\repos\robot ai challenge\AlgorithmDlls\OleksandrKalenikov.RobotChallange.pdb
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Debug\OleksandrKalenikov.RobotChallange.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Debug\OleksandrKalenikov.RobotChallange.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Debug\OleksandrKalenikov.RobotChallange.csproj.CopyComplete
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Debug\OleksandrKalenikov.RobotChallange.dll
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Debug\OleksandrKalenikov.RobotChallange.pdb
+C:\Users\Admin\source\repos\robot ai challenge\AlgorithmDlls\OleksandrKalenikov.RobotChallange.dll.config
