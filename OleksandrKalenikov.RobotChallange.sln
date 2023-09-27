@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OleksandrKalenikov.RobotChallange", "OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange.csproj", "{D852E3AC-B6A6-4233-B157-ACF0596602DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRobots", "TestRobots\TestRobots.csproj", "{6A818DBC-F2A3-4CE6-BEC7-56D3E5A8DB2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D852E3AC-B6A6-4233-B157-ACF0596602DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D852E3AC-B6A6-4233-B157-ACF0596602DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D852E3AC-B6A6-4233-B157-ACF0596602DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A818DBC-F2A3-4CE6-BEC7-56D3E5A8DB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A818DBC-F2A3-4CE6-BEC7-56D3E5A8DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A818DBC-F2A3-4CE6-BEC7-56D3E5A8DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A818DBC-F2A3-4CE6-BEC7-56D3E5A8DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
