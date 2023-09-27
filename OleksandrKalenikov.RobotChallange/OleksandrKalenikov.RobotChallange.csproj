@@ -40,13 +40,18 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cell.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Command\NewRobotCreating.cs" />
+    <Compile Include="Command\RobotCreating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Command\RobotMoving.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="MLModel1.mbconfig" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
