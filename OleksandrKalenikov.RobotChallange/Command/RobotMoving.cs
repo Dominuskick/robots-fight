@@ -21,10 +21,10 @@ namespace OleksandrKalenikov.RobotChallange.Command
           IList<EnergyStation> stations,
           int roundCount)
         {
-            this.Stations = stations;
-            this.RobotIndex = movingRobotIndex;
-            this.Robots = robots;
-            this.RoundCount = roundCount;
+            Stations = stations;
+            RobotIndex = movingRobotIndex;
+            Robots = robots;
+            RoundCount = roundCount;
         }
 
         private bool IsProfitable() => RoundCount < MaxRound;
@@ -33,25 +33,26 @@ namespace OleksandrKalenikov.RobotChallange.Command
         {
             int energy = Robots[RobotIndex].Energy;
             Position position1 = Robots[RobotIndex].Position;
-            int num1 = (int)Math.Sqrt(energy);
-            int num2 = num1 < MaxCellDistance ? num1 : MaxCellDistance - 1;
-            int num3 = int.MinValue;
+            int maxWay = (int)Math.Sqrt(energy);
+            int radius = maxWay < MaxCellDistance ? maxWay : MaxCellDistance - 1;
+            int maximumEnergyCanCollect = int.MinValue;
             Position a = null;
-            for (int index1 = -num2; index1 <= num2; ++index1)
+
+            for (int i = -radius; i <= radius; ++i)
             {
-                for (int index2 = -num2; index2 <= num2; ++index2)
+                for (int j = -radius; j <= radius; ++j)
                 {
-                    Position position2 = new Position(position1.X + index1, position1.Y + index2);
+                    Position position2 = new Position(position1.X + i, position1.Y + j);
                     int distance = Helper.FindDistance(position2, position1);
                     if (Helper.IsValid(position2) && Helper.IsCellFree(position2, Robots, RobotIndex) && energy >= distance + KeepedEnergy)
                     {
-                        int num4 = new Cell(RobotIndex, position2, Stations, Robots).EnergyCanBeCollected();
-                        if (num3 < num4)
+                        int energyCollectInCell = new Cell(RobotIndex, position2, Stations, Robots).EnergyCanBeCollected();
+                        if (maximumEnergyCanCollect < energyCollectInCell)
                         {
-                            num3 = num4;
+                            maximumEnergyCanCollect = energyCollectInCell;
                             a = position2;
                         }
-                        else if (num3 == num4 && Helper.FindDistance(a, position1) > Helper.FindDistance(position2, position1))
+                        else if (maximumEnergyCanCollect == energyCollectInCell && Helper.FindDistance(a, position1) > Helper.FindDistance(position2, position1))
                             a = position2;
                     }
                 }

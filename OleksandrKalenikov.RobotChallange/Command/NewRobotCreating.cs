@@ -6,7 +6,6 @@ namespace OleksandrKalenikov.RobotChallange.Command
     public class NewRobotCreating
     {
         private const int StopCreatingRound = 40;
-        private const int MinProfit = 10;
         private const int EnergyForCreate = 300;
         private const int MaxRobotCount = 100;
         private Robot.Common.Robot FatherRobot;

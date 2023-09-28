@@ -5,7 +5,6 @@ namespace OleksandrKalenikov.RobotChallange.Command
 {
     public class Cell
     {
-        private const string OwnerName = "Oleksandr Kalenikov";
         private const int CollectLength = 2;
         private const int EnergyPerStation = 40;
         private IList<EnergyStation> Stations;
@@ -33,7 +32,7 @@ namespace OleksandrKalenikov.RobotChallange.Command
                     {
                         if (robots[index3].Position == position && movingRobotIndex > index3)
                             ++RobotCount;
-                        else if (robots[index3].Position == position && movingRobotIndex < index3 && robots[index3].OwnerName == OwnerName)
+                        else if (robots[index3].Position == position && movingRobotIndex < index3)
                             ++RobotCount;
                     }
                 }
@@ -44,17 +43,17 @@ namespace OleksandrKalenikov.RobotChallange.Command
 
         public int EnergyCanBeCollected()
         {
-            int num1 = 0;
-            int num2 = RobotCount * EnergyPerStation;
+            int canCollect = 0;
+            int allEnergyByRobots = RobotCount * EnergyPerStation;
             foreach (EnergyStation station in Stations)
             {
-                int num3 = station.RecoveryRate - num2;
+                int num3 = station.RecoveryRate - allEnergyByRobots;
                 if (num3 >= EnergyPerStation)
-                    num1 += EnergyPerStation;
+                    canCollect += EnergyPerStation;
                 else if (num3 > 0)
-                    num1 += num3;
+                    canCollect += num3;
             }
-            return num1;
+            return canCollect;
         }
 
         public int EnergyToBeCollected()

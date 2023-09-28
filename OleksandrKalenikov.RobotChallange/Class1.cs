@@ -9,8 +9,11 @@ namespace OleksandrKalenikov.RobotChallange
     {
         public OleksandrKalenikovAlgorithm()
         {
+            Logger.OnLogRound += new LogRoundEventHandler(Logger_OnLogRound);
             RobotCount = 10;
         }
+
+        private void Logger_OnLogRound(object sender, LogRoundEventArgs e) => ++RoundCount;
 
         public int RoundCount { get; set; }
 

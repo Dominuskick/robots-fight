@@ -75,6 +75,14 @@
               "target": "Package",
               "version": "[17.3.2, )"
             },
+            "Microsoft.QualityTools.Testing.Fakes": {
+              "target": "Package",
+              "version": "[16.11.230815, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.2, )"

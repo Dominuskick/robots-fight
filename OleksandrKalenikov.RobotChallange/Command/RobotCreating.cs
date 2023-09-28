@@ -13,15 +13,9 @@ namespace OleksandrKalenikov.RobotChallange.Command
 
         public EnergyCollecting(int myRobotIndex, IList<EnergyStation> stations, IList<Robot.Common.Robot> robots)
         {
-            this.RobotIndex = myRobotIndex;
-            this.Stations = stations;
-            this.Robots = robots;
-        }
-
-        private bool IsEnoughToCollect()
-        {
-            Position position = Robots[RobotIndex].Position;
-            return new Cell(RobotIndex, Robots[RobotIndex].Position, Stations, Robots).EnergyToBeCollected() > MinRobotMustCollect;
+            RobotIndex = myRobotIndex;
+            Stations = stations;
+            Robots = robots;
         }
 
         public RobotCommand Try() => new CollectEnergyCommand();
