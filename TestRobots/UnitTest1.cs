@@ -39,7 +39,6 @@ namespace OleksandrKalenikov.RobotChallenge.Test
             Assert.IsInstanceOfType(result, typeof(MoveCommand));
         }
 
-        // Add more test methods for different scenarios
 
 
         [TestMethod]

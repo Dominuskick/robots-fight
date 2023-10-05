@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\bin\Release\OleksandrKalenikov.RobotChallange.dll.config
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\bin\Release\OleksandrKalenikov.RobotChallange.dll
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\bin\Release\OleksandrKalenikov.RobotChallange.pdb
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\bin\Release\Robot.Common.dll
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Release\OleksandrKalenikov.RobotChallange.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Release\OleksandrKalenikov.RobotChallange.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Release\OleksandrKalenikov.RobotChallange.csproj.CopyComplete
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Release\OleksandrKalenikov.RobotChallange.dll
+C:\Users\Admin\source\repos\OleksandrKalenikov.RobotChallange\OleksandrKalenikov.RobotChallange\obj\Release\OleksandrKalenikov.RobotChallange.pdb
